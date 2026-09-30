@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fortnite Hardware Spoof</string>
+    <string name="xposed_description">Spoof hardware to SM8750 for Fortnite</string>
+</resources>

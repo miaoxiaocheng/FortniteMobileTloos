@@ -1,0 +1,53 @@
+# compiler: R8
+# compiler_version: 8.7.18
+# min_api: 31
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 476962b
+# pg_map_hash: SHA-256 476962b2b81949eec3db0d679b0994ee3bec17a80e478abaeb4299315a8d9bd2
+com.example.module.MainModule -> com.example.module.a:
+# {"id":"sourceFile","fileName":"MainModule.java"}
+    0:8:void <clinit>():28:28 -> <clinit>
+    0:2:void <init>():32:32 -> <init>
+    3:11:void <init>():33:33 -> <init>
+    0:3:void _$$Nest$smwriteToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:11:void hookMapPut(java.lang.Class):62:62 -> b
+    12:24:void hookMapPut(java.lang.Class):63:63 -> b
+    25:41:void hookMapPut(java.lang.Class):64:64 -> b
+    0:10:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):92:92 -> c
+    11:21:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):93:93 -> c
+    22:30:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):94:94 -> c
+    31:35:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):95:95 -> c
+    36:41:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):96:96 -> c
+    42:49:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):97:97 -> c
+    50:52:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):98:98 -> c
+    53:56:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):99:99 -> c
+    57:66:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):100:100 -> c
+    67:69:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):102:102 -> c
+    70:75:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):103:103 -> c
+    76:82:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):104:104 -> c
+    83:86:void writeToFileStatic(java.lang.String,java.lang.String,java.lang.Throwable):105:105 -> c
+    0:3:void onModuleLoaded(io.github.libxposed.api.XposedModuleInterface$ModuleLoadedParam):38:38 -> onModuleLoaded
+    4:7:void onModuleLoaded(io.github.libxposed.api.XposedModuleInterface$ModuleLoadedParam):39:39 -> onModuleLoaded
+    8:29:void onModuleLoaded(io.github.libxposed.api.XposedModuleInterface$ModuleLoadedParam):38:38 -> onModuleLoaded
+    30:36:void onModuleLoaded(io.github.libxposed.api.XposedModuleInterface$ModuleLoadedParam):40:40 -> onModuleLoaded
+    0:3:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):45:45 -> onPackageLoaded
+    4:23:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):46:46 -> onPackageLoaded
+    24:32:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):48:48 -> onPackageLoaded
+    33:37:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):53:53 -> onPackageLoaded
+    38:42:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):54:54 -> onPackageLoaded
+    43:51:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):55:55 -> onPackageLoaded
+    52:59:void onPackageLoaded(io.github.libxposed.api.XposedModuleInterface$PackageLoadedParam):57:57 -> onPackageLoaded
+com.example.module.MainModule$HardwareSpoofHooker -> com.example.module.a$a:
+# {"id":"sourceFile","fileName":"MainModule.java"}
+    1:1:void <init>():67:67 -> <init>
+    2:2:void <init>():67:67 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(I)V"}
+    1:4:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):70:70 -> intercept
+    5:17:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):71:71 -> intercept
+    18:24:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):72:72 -> intercept
+    25:36:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):74:74 -> intercept
+    37:40:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):76:76 -> intercept
+    41:46:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):81:81 -> intercept
+    47:50:java.lang.Object intercept(io.github.libxposed.api.XposedInterface$Chain):83:83 -> intercept

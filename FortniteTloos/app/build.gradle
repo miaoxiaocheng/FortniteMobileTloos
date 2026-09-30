@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.module'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.module"
+        minSdk 31
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            // ✅ 改成 false！关闭混淆
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+
+    lint {
+        checkReleaseBuilds false
+    }
+
+    dependenciesInfo.includeInApk false
+}
+
+dependencies {
+    compileOnly files('libs/libxposed-api-101.jar')
+}
