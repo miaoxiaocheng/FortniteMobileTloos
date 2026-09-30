@@ -1,23 +1,11 @@
-MIT License
+## MIT 许可证（中文翻译，仅作参考，无法律约束力）
 
-Copyright (c) 2026 miaoxiaocheng
+版权所有 (c) 2026 miaoxiaocheng
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, subject to the following restriction:
+特此免费授予获得本软件副本和相关文档文件（下称“软件”）的任何人不受限制地处理本软件的权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售软件副本的权利，但须遵守以下限制：
 
-THE SOFTWARE SHALL NOT BE USED FOR COMMERCIAL PURPOSES.
-COMMERCIAL USE, SALE OR MONETIZATION IS STRICTLY PROHIBITED.
+**本软件禁止用于任何商业目的，严禁商用、售卖以及一切盈利行为。**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+以上版权声明和许可声明必须包含在软件所有副本或重要部分中。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+本软件按“原样”提供，不提供任何明示或暗示的保证，包括但不限于适销性、特定用途适用性和非侵权性保证。在任何情况下，作者或版权持有人均不对因软件或软件使用所引起的任何索赔、损害或其他责任负责，无论是合同诉讼、侵权诉讼还是其他诉讼。
