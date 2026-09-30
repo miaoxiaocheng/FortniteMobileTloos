@@ -54,11 +54,14 @@
 > Use at your own risk and comply with the game EULA.
 
 ## 📄 License
+- **LICENSE**：正式协议（英文，具备法律效力）
+- **LICENSE_ZH.md**：中文翻译，仅供阅读参考
+
 MIT License with Non‑Commercial Addendum
 
 This project is for **non‑commercial use only**.
-You may use, modify and distribute this project for personal study,
-but commercial use, sale or monetization is strictly prohibited.
+You may use, modify and distribute for personal study.
+Commercial use, sale or monetization is strictly prohibited.
 
 本项目仅限非商业用途。
 允许个人学习、修改、分发，严禁商用、售卖盈利。
